@@ -12,7 +12,7 @@ This tool is built on FLamby. For detailed documentation and information, please
 ## Dependencies
 FLamby requires Python 3. You need to install the additional Python libraries listed in ```requirements.txt``` to run FLamby. To install these libraries, run:
 ```
-pip3 install -r requirement.txt
+pip3 install -r requirements.txt
 ```
 
 ## Dataset Description
