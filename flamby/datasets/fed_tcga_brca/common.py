@@ -12,5 +12,4 @@ FedClass = FedTcgaBrca
 
 
 def get_nb_max_rounds(num_updates, batch_size=BATCH_SIZE):
-    # TODO find out true number
-    return (866 // NUM_CLIENTS // batch_size) * NUM_EPOCHS_POOLED // num_updates
+    return (900 // NUM_CLIENTS // batch_size) * NUM_EPOCHS_POOLED // num_updates
