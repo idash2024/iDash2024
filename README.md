@@ -82,3 +82,9 @@ python3 federated.py
 }
  ```
 ```updates``` is a list of ```numpy.ndarray```, and the total number of data in all centers can be calculated by ```n_samples```. You can view more details about the ```local_updates``` definition in the ```calc_aggregated_delta_weights``` method located in ```flamby/strategies/fed_opt.py```, from lines 168 to 192.
+
+The iDash Track 2 challenge focuses on developing an efficient method for calculating aggregation weights. Therefore, please modify both the `todo.py` and `fed_opt.py` files to adjust the aggregation weight calculation.
+
+Currently, the `todo.py` script uses the number of samples from each client as the aggregation weight. You may choose to build upon this approach or disregard the number of samples entirely. Additionally, you are allowed to introduce up to three new statistical metrics on the client side. These metrics should each represent a single numerical value derived from the client’s dataset, such as the mean, variance, etc.
+
+iDash's final evaluation will involve running the modified `todo.py` and `fed_opt.py` files on a test dataset to assess their performance.
